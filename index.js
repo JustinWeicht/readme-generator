@@ -63,19 +63,23 @@ const questions = () => {
         }
     ])
 
+    // send data to generateMarkdown.js
     .then(data => {
         return generateMarkdown(data);
     })
 
+    // name the file to README.md
     .then(generatedReadme => {
         return writeToFile('README.md', generatedReadme);
     })
     
+    // log error is any occur
     .catch(err => {
         console.log(err);
     })
 };
-// write readme file
+
+// write readme file into ./generated folder
 function writeToFile(fileName, data) {
     fs.writeFile(`./generated/${fileName}`, data, err => {
         if (err) {
@@ -91,4 +95,4 @@ function init() {
 }
 
 // call to start app
-init()
+init();

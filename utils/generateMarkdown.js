@@ -1,4 +1,4 @@
-// function to generate markdown for README
+// generate markdown for README using data sent from index.js
 function generateMarkdown(data) {
   return `
   ![GitHub](https://img.shields.io/github/license/${data.username}/${data.title})
