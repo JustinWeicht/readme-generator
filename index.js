@@ -21,7 +21,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'install',
-            message: 'How do you install your application?'
+            message: 'Please provide installation instructions for your application?'
         },
         // Usage Section
         {
@@ -46,7 +46,7 @@ const questions = () => {
             type: 'list',
             message: 'What is your preferred method of communication?',
             name: 'license',
-            choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License v3.0', 'Eclipse Public License 2.0']
+            choices: ['MIT', 'GNU', 'BSD', 'ISC', 'Apache', 'Eclipse']
         },
         // Questions Section
         // username & link
@@ -54,12 +54,6 @@ const questions = () => {
             type: 'input',
             name: 'username',
             message: 'What is your GitHub username?'
-        },
-        // repository name
-        {
-            type: 'input',
-            name: 'repo',
-            message: 'What is your GitHub repository name?'
         },
         // email
         {
@@ -73,7 +67,9 @@ const questions = () => {
         return generateMarkdown(data);
     })
 
-    .then(generatedReadme => writeToFile('README.md', generatedReadme))
+    .then(generatedReadme => {
+        return writeToFile('README.md', generatedReadme);
+    })
     
     .catch(err => {
         console.log(err);
@@ -85,10 +81,11 @@ function writeToFile(fileName, data) {
         if (err) {
             throw err;
         };
-        console.log('Your README file has been created.')
+        console.log('Your README.md file has been generated.')
     });
 }
 
+// begin questions
 function init() {
     questions();
 }

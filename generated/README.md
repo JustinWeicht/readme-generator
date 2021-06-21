@@ -1,7 +1,34 @@
-# title
-  !MIT License (img.shields.io/badge/license-MIT%20License-blue)
+
+  ![GitHub](https://img.shields.io/github/license/justinweicht/Title here)
+  # Title here
+
   ## Description
-  title
-  ## Contents
-  * [Installation](#installation)* [Usage](#usage)* [License](#license)* [Test](#test)* [Questions](#questions)
-  ## Usageusage## LicenseThis application uses the MIT License license.## TestTo test the application, install test and run `npm run test` from the command line.
+  Description here
+
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributions](#contributions)
+  * [Testing](#testing)
+  * [Questions](#questions)
+
+  ## Installation
+  Instructions here
+
+  ## Usage
+  Information here
+
+  ## License
+  * This application uses the MIT license
+  
+  ## Contributions
+  Guidelines here
+
+  ## Testing
+  testing-package
+
+  ## Questions
+  Created by: [justinweicht]
+  
+  If you have questions regarding this application, please contact me at: [someone@email.com](someone@email.com)
