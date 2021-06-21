@@ -1,5 +1,6 @@
 
   ![GitHub](https://img.shields.io/github/license/justinweicht/Title here)
+
   # Title here
 
   ## Description
@@ -17,18 +18,18 @@
   Instructions here
 
   ## Usage
-  Information here
+  information here
 
   ## License
   * This application uses the MIT license
   
   ## Contributions
-  Guidelines here
+  guidelines here
 
   ## Testing
-  testing-package
+  test-package
 
   ## Questions
   Created by: [justinweicht]
   
-  If you have questions regarding this application, please contact me at: [someone@email.com](someone@email.com)
+  If you have questions regarding this application, please contact me at: [someone@gmail.com](someone@gmail.com)

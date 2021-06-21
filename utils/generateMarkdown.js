@@ -1,39 +1,8 @@
-// create installation section
-const generateInstall = installText => {
-  if (!installText) {
-    return ''
-  } else {
-    return `## Installation
-  ${installText}
-  `
-  }
-}
-
-// create contribution section
-const generateContribute = contributeText => {
-  if (!contributeText) {
-    return ''
-  } else {
-    return `## Contributions
-  ${contributeText}
-  `
-  }
-}
-
-// create testing section
-const generateTesting = testText => {
-  if (!testText) {
-    return ''
-  } else {
-    return `## Testing
-  ${testText}
-  `
-  }
-}
-
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
+  ![GitHub](https://img.shields.io/github/license/${data.username}/${data.title})
+
   # ${data.title}
 
   ## Description
