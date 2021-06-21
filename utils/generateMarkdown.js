@@ -23,6 +23,15 @@ const createTableOfContents = contentsArr => {
   return contentsList;
 };
 
+// creates installation section
+const createInstallation = install => {
+  if (install) {
+      return `To use this application, please install: ${install}`;
+  } else {
+      return '';
+  }
+};
+
 // usage section
 const createUsage = usage => {
   return `${usage}`
@@ -55,9 +64,47 @@ const createQuestions = (email, username, repo) => {
   }
 };
 
-// TODO: Create a function to generate markdown for README
+// create markdown for readme
 function generateMarkdown(data) {
-  return `# ${data.title}`;
+  const { title, username, repo, license } = data;
+  let readmeContents = '';
+  const sectionArr = [
+      {
+          header: 'Installation',
+          content: createInstallation(data.installation)
+      },
+      {
+          header: 'Usage',
+          content: createUsage(data.usage)
+      },
+      {
+          header: 'License',
+          content: createLicense(license)
+      },
+      {
+          header: 'Test',
+          content: createTest(data.test)
+      },
+      {
+          header: 'Questions',
+          content: createQuestions(data.questions, username, repo)
+      }
+  ];
+
+  // adds each README section if contents for the section exists
+  sectionArr.forEach((sectionItem) => {
+    if (sectionItem.content) {
+      readmeContents += `## ${sectionItem.header}${sectionItem.content}`;
+    }
+  });
+
+  return `# ${title}
+  ${renderLicenseBadge(license)}
+  ## Description
+  ${createDescription(title, data.description, data.link)}
+  ## Contents
+  ${createTableOfContents(sectionArr)}
+  ${readmeContents}`;
 }
 
 module.exports = generateMarkdown;
