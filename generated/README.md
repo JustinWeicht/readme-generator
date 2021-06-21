@@ -1,10 +1,10 @@
 
-  ![GitHub](https://img.shields.io/github/license/justinweicht/Title here)
+  ![GitHub](https://img.shields.io/github/license/justinweicht/readme-generator)
 
-  # Title here
+  # readme-generator
 
   ## Description
-  description here
+  Description here
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,21 +15,21 @@
   * [Questions](#questions)
 
   ## Installation
-  instructions here
+  Instructions here
 
   ## Usage
-  information here
+  Information here
 
   ## License
   * This application uses the MIT license
   
   ## Contributions
-  guidelines here
+  Guidelines here
 
   ## Testing
-  test-package
+  test-package here
 
   ## Questions
-  Created by: [justinweicht]
+  Created by: justinweicht
   
   If you have questions regarding this application, please contact me at: [someone@email.com](someone@email.com)

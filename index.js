@@ -80,7 +80,7 @@ const questions = () => {
 };
 
 // write readme file into ./generated folder
-function writeToFile(fileName, data) {
+const writeToFile = (fileName, data) => {
     fs.writeFile(`./generated/${fileName}`, data, err => {
         if (err) {
             throw err;
@@ -90,7 +90,7 @@ function writeToFile(fileName, data) {
 }
 
 // begin questions
-function init() {
+const init = () => {
     questions();
 }
 

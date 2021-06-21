@@ -1,5 +1,5 @@
 // generate markdown for README using data sent from index.js
-function generateMarkdown(data) {
+const generateMarkdown = (data) => {
   return `
   ![GitHub](https://img.shields.io/github/license/${data.username}/${data.title})
 
@@ -32,7 +32,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  Created by: [${data.username}]
+  Created by: ${data.username}
   
   If you have questions regarding this application, please contact me at: [${data.email}](${data.email})`;
 }
