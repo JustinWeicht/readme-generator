@@ -23,7 +23,7 @@ const generateMarkdown = (data) => {
   ${data.usage}
 
   ## License
-  * This application uses the ${data.license} license
+  This application uses the ${data.license} license
   
   ## Contributions
   ${data.contribution}

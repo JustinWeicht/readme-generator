@@ -21,7 +21,7 @@
   Information here
 
   ## License
-  * This application uses the MIT license
+  This application uses the MIT license
   
   ## Contributions
   Guidelines here
