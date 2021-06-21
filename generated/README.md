@@ -4,7 +4,7 @@
   # Title here
 
   ## Description
-  Description here
+  description here
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,7 +15,7 @@
   * [Questions](#questions)
 
   ## Installation
-  Instructions here
+  instructions here
 
   ## Usage
   information here
@@ -32,4 +32,4 @@
   ## Questions
   Created by: [justinweicht]
   
-  If you have questions regarding this application, please contact me at: [someone@gmail.com](someone@gmail.com)
+  If you have questions regarding this application, please contact me at: [someone@email.com](someone@email.com)
