@@ -4,7 +4,7 @@
   # readme-generator
 
   ## Description
-  Description here
+  description here
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,21 +15,21 @@
   * [Questions](#questions)
 
   ## Installation
-  Instructions here
+  instructions here
 
   ## Usage
-  Information here
+  information here
 
   ## License
   This application uses the MIT license
   
   ## Contributions
-  Guidelines here
+  guidelines here
 
   ## Testing
-  test-package here
+  tesst-package
 
   ## Questions
-  Created by: justinweicht
+  Created by: justinweicht(https://github.com/justinweicht/);
   
-  If you have questions regarding this application, please contact me at: [someone@email.com](someone@email.com)
+  If you have questions regarding this application, please contact me at: someone@email.com(someone@email.com)
