@@ -32,7 +32,7 @@ const generateMarkdown = (data) => {
   ${data.test}
 
   ## Questions
-  Created by: [${data.username}](https://github.com/${data.username}/);
+  Created by: [${data.username}](https://github.com/${data.username}/)
   
   If you have questions regarding this application, please contact me at: [${data.email}](${data.email})`;
 }
