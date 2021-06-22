@@ -27,9 +27,9 @@
   guidelines here
 
   ## Testing
-  tesst-package
+  test-package
 
   ## Questions
-  Created by: justinweicht(https://github.com/justinweicht/);
+  Created by: [justinweicht](https://github.com/justinweicht/);
   
-  If you have questions regarding this application, please contact me at: someone@email.com(someone@email.com)
+  If you have questions regarding this application, please contact me at: [someone@email.com](someone@email.com)
