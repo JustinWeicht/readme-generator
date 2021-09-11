@@ -84,15 +84,16 @@ const writeToFile = (fileName, data) => {
     fs.writeFile(`./generated/${fileName}`, data, err => {
         if (err) {
             throw err;
-        };
-        console.log('Your README.md file has been generated.')
+        } else {
+            console.log('Your README.md file has been generated.')
+        }
     });
-}
+};
 
 // begin questions
 const init = () => {
     questions();
-}
+};
 
 // call to start app
 init();
